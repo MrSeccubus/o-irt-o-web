@@ -1,0 +1,8 @@
+.DS_Store
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+_config_livereload.yml
+**/.DS_Store
+_sass/
+_site/
