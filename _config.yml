@@ -13,8 +13,8 @@ sass:
 collections:
   deelnemers:
     output: true
-  publicaties:
-    output: true
+ # publicaties:
+ #   output: true
 
 plugins:
   - jekyll-sitemap
