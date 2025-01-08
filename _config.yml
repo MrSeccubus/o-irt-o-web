@@ -1,0 +1,37 @@
+title: "o-irt-o, het Operationeel Incident Response Team Overleg"
+author: "o-irt-o"
+email: info@i-irt-o.nl
+description: > # this means to ignore newlines until "baseurl:"
+  Het o-irt-o is de hub voor iedereen die in Nederland operationeel betrokken is bij een (cyber) incident response team.
+
+twitter_username: macrod68
+github_username:  macrod68
+
+sass:
+    style: compressed
+
+collections:
+  deelnemers:
+    output: true
+  publicaties:
+    output: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Custom headers
+webrick:
+  headers:
+    Content-Security-Policy:  default-src 'none'; font-src 'self'; img-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com/; connect-src 'self'; 
+
+exclude:
+  - .gitignore
+  - LICENSE.txt
+  - serve*
+  - proof_html.sh
+  - test_it.sh
+  - "*.sh"
+  - vendor
+  - Gemfile*
+  - "*.log"

@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: Over
+  link: /over/
+- name: Deelnemers
+  link: /deelnemers/
+- name: Nieuws
+  link: /nieuws/
+#- name: Publicaties
+#  link: /publicaties/
+#- name: Contact
+#  link: /contact/
+- name: RSS
+  link: /feed.xml
